@@ -1,4 +1,45 @@
-﻿.abt-round > img {
+﻿/* Hide Dropdowns by Default */
+.products{
+  padding-top: 9px;
+  
+}
+.products ul li{
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.products a{
+text-decoration: none;
+color: #795151 ;
+font-weight:600;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width: 100px;
+  float: none;
+  display: list-item;
+  position: relative;
+
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+  position: relative;
+ padding-top: 100px;
+  left: 170px;
+}
+
+.abt-round > img {
   height: 20px;
   width: 20px;
 }
