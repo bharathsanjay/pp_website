@@ -1,4 +1,25 @@
-﻿/* Hide Dropdowns by Default */
+﻿.titlee{
+  font-family: brush-script-std, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 65;
+}
+.view{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 65;
+  font-style: italic;
+}
+.ff{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 33;
+}
+
+
+
+/* Hide Dropdowns by Default */
 .products{
   padding-top: 9px;
   
@@ -204,6 +225,9 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1301px) {
+  #myCarousel{
+    height: 300px;
+  }
   .in-headspace {
     height: 50px;
   }
@@ -312,6 +336,9 @@ html {
 }
 
 @media (max-width: 767.98px) {
+  #myCarousel{
+    height: 200px;
+  }
   .spacing1 {
     margin: 20px 0 0 0;
   }
@@ -320,5 +347,42 @@ html {
   }
 }
 
-@media (min-width: 767.98px) {
+@media (max-width: 767.98px) {
+  .products{
+    right: 0;
+    width: 100%;
+    position: static;
+
+
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .c1{
+    width: 80% !important;
+    margin: 0 auto;
+    height: 10% !important;
+    padding-left: 0 !important;
+  }
+  .rev{
+    padding-left: 0 !important;
+  }
+  .prod{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .imgg{
+    margin: 0 auto !important;
+  }
+  .abt-round{
+    flex-wrap: wrap !important;
+  }
+  .roundimage{
+    display: flex !important;
+    flex-direction: column !important ;
+    flex-wrap: wrap;
+  }
+  .bp{
+    margin-top: 70px;
+  }
 }
