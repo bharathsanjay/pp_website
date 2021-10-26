@@ -385,4 +385,7 @@ html {
   .bp{
     margin-top: 70px;
   }
+  .products {
+    padding-left: 0 !important;
+  }
 }
