@@ -1,37 +1,38 @@
-﻿.titlee{
+﻿body {
+  overflow-x: hidden;
+}
+
+.titlee {
   font-family: brush-script-std, sans-serif;
 
-font-weight: 400;
+  font-weight: 400;
 
-font-style: normal;
-font-size: 65;
+  font-style: normal;
+  font-size: 65;
 }
-.view{
-  font-family: 'Libre Baskerville', serif;
+.view {
+  font-family: "Libre Baskerville", serif;
   font-size: 65;
   font-style: italic;
 }
-.ff{
-  font-family: 'Josefin Sans', sans-serif;
+.ff {
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bolder;
   font-size: 33;
 }
 
-
-
 /* Hide Dropdowns by Default */
-.products{
-  padding-top: 9px;
-  
+.products {
+  padding-top: 20px;
 }
-.products ul li{
+.products ul li {
   margin-right: 10px;
   padding-right: 10px;
 }
-.products a{
-text-decoration: none;
-color: #795151 ;
-font-weight:600;
+.products a {
+  text-decoration: none;
+  color: #795151;
+  font-weight: 600;
 }
 nav ul ul {
   display: none;
@@ -50,13 +51,12 @@ nav ul ul li {
   float: none;
   display: list-item;
   position: relative;
-
 }
 
 /* Second, Third and more Tiers	*/
 nav ul ul ul li {
   position: relative;
- padding-top: 100px;
+  padding-top: 100px;
   left: 170px;
 }
 
@@ -225,7 +225,7 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1301px) {
-  #myCarousel{
+  #myCarousel {
     height: 300px;
   }
   .in-headspace {
@@ -336,7 +336,7 @@ html {
 }
 
 @media (max-width: 767.98px) {
-  #myCarousel{
+  #myCarousel {
     height: 200px;
   }
   .spacing1 {
@@ -348,41 +348,39 @@ html {
 }
 
 @media (max-width: 767.98px) {
-  .products{
+  .products {
     right: 0;
     width: 100%;
     position: static;
-
-
   }
-  
 }
 @media only screen and (max-width: 768px) {
-  .c1{
+  .c1 {
     width: 80% !important;
     margin: 0 auto;
     height: 10% !important;
     padding-left: 0 !important;
   }
-  .rev{
+  .rev {
     padding-left: 0 !important;
   }
-  .prod{
+  .prod {
     margin-left: 20px !important;
     margin-right: 20px !important;
   }
-  .imgg{
+  .imgg {
     margin: 0 auto !important;
+    margin-right: 0 auto !important;
   }
-  .abt-round{
+  .abt-round {
     flex-wrap: wrap !important;
   }
-  .roundimage{
+  .roundimage {
     display: flex !important;
     flex-direction: column !important ;
     flex-wrap: wrap;
   }
-  .bp{
+  .bp {
     margin-top: 70px;
   }
   .products {
